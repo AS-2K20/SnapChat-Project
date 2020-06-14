@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+:focus{
+    background-color: yellow;
+    outline: none;
+}
+
+p{
+  cursor: pointer;  ;
+}
+
+p:hover{
+    background-color: yellow;
+}
+
+.sc_logo_div img{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 130px;
+    height: 20px;
+    width: 20px;
+}
+
+nav{
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+   margin-top: 7px;
+   
+}
+
+ul{
+    margin-left: 155px;
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-link{
+    
+    font-size: medium;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-link:hover{
+    background-color: yellow;
+}
+
+section{
+    height: 700px;
+    background-color: yellow;
+}
+section h1{
+    text-align: center;
+}
+
+#real_friends{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+}
+
+section img {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+
+.left_emoji{    
+    margin-left: 40px;
+}
+
+.centre_emoji{
+    margin-left: 280px;
+}
+
+.right_emoji{
+    margin-left: 530px;    
+}
+
+.emoji_names{ 
+    margin-top: 330px;   
+    height: 50px;
+    width: 400px;
+}
+
+.emoji_names_p{
+    position: absolute;
+    margin-top: 380px ;
+    font-size: 14px;
+}
+#left_emoji_p{    
+    margin-left: 175px;
+}
+
+#centre_emoji_p{
+    margin-left: 390px;
+}
+
+#right_emoji_p{
+    margin-left: 660px;
+}
+
+#watch_now_btn{
+    position: absolute;
+    margin-top: 470px ;
+    margin-left: 670px;
+    width: 200px;
+    height: 50px;    
+    outline: none;
+    border-width: 0px;
+    font-weight: bold;
+    cursor: pointer;    
+    background-color: white;
+    border-radius: 20px;
+}
+
+#watch_now_btn:hover{
+    background-color:orange;
+}
+
+#watch_now_btn:focus{
+    background-color: orange;
+}
+
+.bottom_content{
+    height: 270px;
+    background-color: #F8F9FB;
+}
+
+
+
+#company_ul p{
+    font-size:12px ;
+    font-weight: unset;
+    color:#CCCBC7 ;
+    margin-top: 3px;
+   
+}
+
+#company_ul{    
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 45px;
+    line-height: 18px;
+
+}
+
+#company_ul h6{
+    font-size: 14px;
+}
+
+#language_ul select{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 200px;
+    height: 30px; 
+    border-radius: 5px;   
+    border-color:#CCCBC7 ;
+    color:#CCCBC7;    
+}
+
+#language_ul h6{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 170px;
+    margin-left: 45px;
+}
+
+#community_ul h6{
+    font-size: 14px;
+}
+
+#community_ul{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 305px;
+    line-height: 18px;
+}
+
+#community_ul p{
+    font-size:12px ;
+    font-weight: unset;
+    color:#CCCBC7 ;
+    margin-top: 3px;
+}
+
+#advertising_ul h6{
+    font-size: 14px;
+}
+
+#advertising_ul{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 605px;
+    line-height: 18px;
+}
+
+#advertising_ul p{
+    font-size:12px ;
+    font-weight: unset;
+    color:#CCCBC7 ;
+    margin-top: 3px;
+}
+
+#legal_ul h6{
+    font-size: 14px;
+}
+
+#legal_ul{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 905px;
+    line-height: 18px;
+}
+
+#legal_ul p{
+    font-size:12px ;
+    font-weight: unset;
+    color:#CCCBC7 ;
+    margin-top: 3px;
+}
+
+.footer{
+    height: 40px;
+    background-color: black;
+    width: 100%;
+}    
+
+.footer h6{
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.privacy_policy{
+    position: absolute;
+    margin-top: 12px;    
+    margin-left: 200px;   
+    width: 50%; 
+}
+
+.terms_of_service{   
+    position: absolute;
+    margin-top: 12px;   
+    margin-left: 350px;
+    width: 50%;
+}
+
+
